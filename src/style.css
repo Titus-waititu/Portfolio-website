@@ -81,6 +81,8 @@ span{
     color: #b74b4b;
     font-weight: 800;
     font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 2rem;
 }
 .social-links{
     display: flex;
@@ -94,6 +96,9 @@ span{
 .social-links a:hover{
     color: #fff;
 }
+.dropdown-menu {
+    background-color: brown; /* Set dropdown background color to brown */
+  }
 
 
 
