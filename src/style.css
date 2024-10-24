@@ -8,7 +8,7 @@ body{
 .main{
     display: flex;
     flex-direction: row;
-    margin: 0 1rem;
+    margin: 1rem 1rem;
     gap: 2rem;
 }
 .image{
@@ -50,8 +50,50 @@ span{
     color: black;
     box-shadow: 0 0 25px #b74b4b;
 }
+/* Make the navbar background transparent */
+.transparent-bg {
+    background-color: transparent;
+  }
 
+  /* Default crimson text color for Home */
+  .crimson-text {
+    color: #b74b4b !important;
+  }
 
+  /* Links hover effect: crimson text and crimson underline */
+  .nav-link {
+    color: black; /* Default color for links */
+    text-decoration: none; /* Remove underline by default */
+  font-weight: 800;
+}
+
+  .nav-link:hover {
+    color: #b74b4b; /* Crimson text on hover */
+    text-decoration: underline; /* Underline on hover */
+    text-decoration-color: #b74b4b; /* Crimson underline */
+  }
+
+  /* Keep the active link (Home) crimson by default */
+  .nav-link.active {
+    color: #b74b4b;
+  }
+.navbar-brand{
+    color: #b74b4b;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.social-links{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.social-links a{
+    color: #b74b4b;
+    font-size: 1.5rem;
+}
+.social-links a:hover{
+    color: #fff;
+}
 
 
 
